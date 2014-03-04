@@ -214,11 +214,15 @@
       <url>${staging.siteURL}/maven/${project.version}</url>
       <!--<url>${site-repo-url}</url>-->
     </site>
+    <repository>
+      <id>bla-linkux-internal</id>
+      <name>PTC Service Bus Internal</name>
+      <url>http://bla-linkux.ptcnet.ptc.com:8888/repository/internal/</url>
+    </repository>
     <snapshotRepository>
-      <id>apache.snapshots.https</id>
-      <name>Apache Development Snapshot Repository</name>
-      <url>https://repository.apache.org/content/repositories/snapshots</url>
-      <uniqueVersion>false</uniqueVersion>
+      <id>bla-linkux-snapshots</id>
+      <name>PTC Service Bus Snapshots</name>
+      <url>http://bla-linkux.ptcnet.ptc.com:8888/repository/snapshots/</url>
     </snapshotRepository>
   </distributionManagement>
 
@@ -1598,6 +1602,19 @@
         <snapshots><enabled>true</enabled></snapshots>
       </repository>
 
+    <!-- for PTC-patched versions of dependencies -->
+    <repository>
+      <id>bla-linkux-internal</id>
+      <url>http://bla-linkux.ptcnet.ptc.com:8888/repository/internal/</url>
+      <releases><enabled>true</enabled></releases>
+      <snapshots><enabled>false</enabled></snapshots>
+    </repository>
+    <repository>
+      <id>bla-linkux-snapshots</id>
+      <url>http://bla-linkux.ptcnet.ptc.com:8888/repository/snapshots/</url>
+      <releases><enabled>false</enabled></releases>
+      <snapshots><enabled>true</enabled></snapshots>
+    </repository>
   </repositories>
 
 </project>
