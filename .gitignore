@@ -22,6 +22,7 @@ activemq-unit-tests/shared
 activemq-data
 activemq-leveldb-store/.cache
 activemq-runtime-config/src/main/resources/activemq.xsd
+activemq-runtime-config/src/main/resources/org/springframework/beans/factory/xml/spring-beans-3.0.xsd
 activemq-amqp/amqp-trace.txt
 data/
 dependency-reduced-pom.xml
