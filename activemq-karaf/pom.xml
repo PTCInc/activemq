@@ -22,7 +22,7 @@
   <parent>
     <groupId>org.apache.activemq</groupId>
     <artifactId>activemq-parent</artifactId>
-    <version>5.9.1.ptc-SNAPSHOT</version>
+    <version>5.9.1.ptc-2014-05-22_18-33-02</version>
   </parent>
 
   <artifactId>activemq-karaf</artifactId>
