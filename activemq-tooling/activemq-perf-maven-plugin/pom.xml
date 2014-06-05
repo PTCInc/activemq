@@ -21,7 +21,7 @@
   <parent>
     <groupId>org.apache.activemq.tooling</groupId>
     <artifactId>activemq-tooling</artifactId>
-    <version>5.9.1.ptc-SNAPSHOT</version>
+    <version>5.9.1.ptc-2014-06-05_15-48-24</version>
   </parent>
 
   <artifactId>activemq-perf-maven-plugin</artifactId>
